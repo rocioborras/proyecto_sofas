@@ -196,7 +196,7 @@ nav ul li {
 .imagen__contacto {
   background-color: white;
   background-image: url("../imagenes/contactofoto.jpg");
-  height: 100vh;
+  /*height: 100vh;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,6 +340,17 @@ h1 {
     font-size: 1.2rem; } }
 
 @media (max-width: 768px) {
+  .footer__pagina {
+    display: grid;
+    grid-template-areas: "suscribite" "contacto"   "redes";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .footer__suscribite {
+    grid-area: suscribite; }
+  .footer__contacto {
+    grid-area: contacto; }
+  .footer__redesSociales {
+    grid-area: redes; }
   .texto__tiendasDir {
     font-size: 22px; }
   .texto__tiendas {
@@ -357,9 +368,12 @@ h1 {
   .footer__suscribite h3 {
     font-size: 19px; }
   .footer__contacto h4 {
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif; }
+    display: none;
+    /*
+            font-size:22px;
+            font-weight: bold;
+            font-family: 'Ubuntu', sans-serif;
+*/ }
   .footer__suscribite input[type="submit"] {
     padding: 6px 15px;
     font-size: 15px;
@@ -408,9 +422,9 @@ h1 {
   .pieFotoP {
     font-size: 1.2rem; }
   .sillon__ahora {
-    font-size: 17px; }
+    font-size: 20px; }
   .sillon__desde {
-    font-size: 13px; }
+    font-size: 17px; }
   #notaContacto {
     font-size: 1.95rem;
     font-weight: bold; }
