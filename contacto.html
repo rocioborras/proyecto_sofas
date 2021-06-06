@@ -16,7 +16,7 @@
 <body>
 
   <header> <!-- COMIENZO DEL HEADER -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         <a href="index.html"><img src="imagenes/logogris.jpg" width="120" height="110" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,30 +46,32 @@
   </header> <!-- FIN DEL HEADER -->     
 
   <main class="colorContacto"> <!-- FORMULARIO DE CONTACTO PARA COMPLETAR-->
-    <div class="form">
+    
       <p id="notaContacto">Completá tus datos y un asesor se contactará a la brevedad!</p>
+      <div class="form">
           <input type="text" name="Nombre" placeholder="Ingrese su nombre">
           <input type="text" name="Apellido" placeholder="Ingrese su apellido">
           <input type="text" name="E-mail" placeholder="Ingrese su e-mail">
           <input type="text" name="Teléfono" placeholder="Ingrese su teléfono">
           <textarea name="" placeholder="Escribe su mensaje..."></textarea>
-          <input type="submit" value="Enviar formulario"class="botonEnviar"></input>
-          <input type="reset" value="Limpiar formulario" class="botonLimpiar">
+          <button type="submit" value="Enviar formulario"class="botonEnviar">Enviar formulario </button>
+          <button type="reset" value="Limpiar formulario" class="botonLimpiar">Limpiar formulario</button>
+
     </div> <!--FIN FORMULARIO DE CONTACTO -->
   </main> 
 
   <footer> <!-- COMIEDO DEL FOOTER -->
-    <div class="pie">
-      <div class="centro"> <!-- FOOTER SUSCRIBITE -->
-        <h2> <u>OBTENE DESCUENTOS Y PROMOCIONES!!</u></h2>
-        <h4>Dejanos tu e-mail para recibir todas las novedades</h4>
+    <div class="footer__pagina">
+      <div class="footer__suscribite"> <!-- FOOTER SUSCRIBITE -->
+        <h2> <u>OBTENE DESCUENTOS Y PROMOCIONES!!</u></h2><br>
+        <h3>Dejanos tu e-mail para recibir todas las novedades</h3><br>
         <input type="email" placeholder="Ingresá tu e-mail...">
         <br>
         <input type="submit" value="SUSCRIBITE"> 
       </div>
       
-      <div class="derecha"><!-- FOOTER CONTACTO-->
-        <h4> <u>CONTACTO: </u></h4>
+      <div class="footer__contacto"><!-- FOOTER CONTACTO-->
+        <h4> <u>CONTACTO: </u></h4><br>
           <p><span class="icon icon-location2"><b>DIRECCION:</b></span></p>
           <p> Av. Cabildo 3786 - CABA </p> 
           <p> Av. Corrientes 1345 - CABA </p>
@@ -77,7 +79,7 @@
           <p><span class="icon icon-envelop"><b> EMAIL:</b> consultas@sofas.com.ar</span></p>
       </div>
       
-      <div class="izquierda"> <!-- FOOTER REDES SOCIALES -->
+      <div class="footer__redesSociales"> <!-- FOOTER REDES SOCIALES -->
         <a href="#" class="icon icon-facebook2"></a>
         <a href="#" class="icon icon-twitter"></a>
         <a href="#" class="icon icon-instagram"></a>
