@@ -1,20 +1,17 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 /* BARRA DE NAVEGACION */
 
 ul li {
-    list-style: none; 
-}
+    list-style: none;}
 
 nav ul li {
     font-size: 20px;
     display: flex !important;
     justify-content: space-between !important;
     /*margin-right: 5rem; */
-    margin-left: 4rem;
-}
+    margin-left: 4rem;}
 
 .nav-item{
     padding: 1px 7px 2px 6px;
@@ -22,15 +19,13 @@ nav ul li {
     /*background-color: #eeeeee;*/
     /*border: 3px solid  lightgrey;*/
     text-decoration: none;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 .nav-item:hover{
     background-color: lightgrey;
     color: black;
     font-weight: bold;
-    border: dotted 1px;
-}
+    border: dotted 1px;}
 
 /* INDEX - INTRODUCCION FOTO */
 .introduccion__Foto{
@@ -38,31 +33,25 @@ nav ul li {
     font-size: 1.2rem;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Ubuntu', sans-serif;
-
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 /* INDEX - PIE FOTO */
 .introduccion__fotoPie{
     text-align: center;
     font-size: 1.6rem;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
-
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 /* FOOTER */
 .footer__pagina{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap:1em;
-    column-gap: 0.5em;
-}
+    column-gap: 0.5em;}
 
 .footer__pagina div{
     padding: 0.65em;
-    text-align: center;
-}
+    text-align: center;}
 
 /* FOOTER - SUSCRIBITE */
 .footer__suscribite{
@@ -71,8 +60,7 @@ nav ul li {
     font-size: 17px;
     grid-column:1/3;
     font-family: 'Ubuntu', sans-serif;
-    color: black;
-}
+    color: black;}
 
 /* FOOTER - CONTACTO*/
 .footer__contacto{
@@ -84,33 +72,26 @@ nav ul li {
 .footer__redesSociales{
     background-color: white;
      grid-column:1/4;
-    font-size:1.5rem;
-}
+    font-size:1.5rem;}
 
 /* FOOTER - ICONOS REDES SOCIALES*/
 .icon{
     color:black;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 .icon-facebook2{
-    color:blue;
-}
+    color:blue;}
 
 .icon-twitter{
-    color: rgb(32, 150, 204);
-}
+    color: rgb(32, 150, 204);}
 
 .icon-instagram{
-    color: rgb(156, 28, 156);
-}
+    color: rgb(156, 28, 156);}
 
 .icon-whatsapp{
-    color: rgb(17, 153, 39)
-}
+    color: rgb(17, 153, 39)}
 .icon:hover{
-    color:grey;
-}
+    color:grey;}
 
 /* FOOTER BOTON SUSCRIBITE */
 .footer__suscribite input[type="submit"]{
@@ -122,14 +103,11 @@ nav ul li {
     width: 25%;
     border: 1px solid;
     background-color: grey;
-    font-weight: bold;
-
-}
+    font-weight: bold;}
 
 .footer__suscribite input[type="submit"]:hover{
     background-color:black;
-    color: white;
-}
+    color: white;}
 
 /* FOOTER BOTON EMAIL */
 .footer__suscribite input[type="email"]{
@@ -138,39 +116,31 @@ nav ul li {
     text-align: center;
     border: 1px solid;
     font-size:15px;
-    padding: 10px;
-}
+    padding: 10px;}
 
 .footer__contacto h4{
     font-size:20px;
-    font-family: 'Ubuntu', sans-serif;
-
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 .footer__contacto h2{
-    font-family: 'Ubuntu', sans-serif;
-
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 /* PRODUCTOS - PRECIO */
 .titulo__productos{
     font-weight: bold;
     font-size: 1.8rem;
     margin-top: 40px;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px;}
 
 .sillon__ahora{ 
     text-decoration: underline;
-    font-size: 1.5rem;
-}
+    font-size: 1.5rem;}
 
 /* PRODUCTOS - PRECIO */
 .sillon__desde{ 
     text-decoration: line-through;
     font-size:1.4rem;
-    color: red;
-}
+    color: red;}
 
 /*ERROR*/
 .error__imagen{
@@ -180,8 +150,7 @@ nav ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
-}
+    position: relative;}
     
 .error__texto {
     text-align: center;
@@ -189,16 +158,14 @@ nav ul li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black; 
-    }
+    color: black;}
     
 .h2__texto {
     font-size: 6rem;
     text-align: center;
     color: black;
     width: 70vw;
-    margin: 0 auto; 
-}
+    margin: 0 auto;}
     
 .p__texto {
     color: black;
@@ -206,8 +173,7 @@ nav ul li {
     text-align: center;
     width: 70vw;
     margin: 0 auto;
-    padding-bottom: 3rem; 
-}
+    padding-bottom: 3rem;}
 
 /*PROMOCIONES*/
 .texto__promociones{/*PIE FOTO IMAGEN PRINCIPAL*/
@@ -215,37 +181,32 @@ nav ul li {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    padding-top:7px;
-}
+    padding-top:7px;}
+
 .texto__promociones__pie{
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
-
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 /*CONTACTO*/
 .imagen__contacto{
     background-color: white;
     background-image: url("../imagenes/contactofoto.jpg");
-    height: 100vh;
+    /*height: 100vh;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
-}
+    position: relative;}
 
 .form{
     width: 450px;
     margin:auto;
     background: rgba (0,0,0,0);
     padding: 10px 20px;
-    margin-top: 5px;
-
-}
+    margin-top: 5px;}
 
 h2{
     color: black;
@@ -253,65 +214,52 @@ h2{
     margin: 0;
     font-weight: 100;
     margin-bottom: 20px;
-    font-size: 30px;
-}
+    font-size: 30px;}
 
 main, input, textarea{
     width: 100%;
     margin-bottom: 20px;
     padding: 8px;
     font-size: 15px;
-    border:none;
-}
+    border:none;}
 
 textarea{
     min-height: 130px;
     max-height: 200px;
-    max-width: 100%;
-}
+    max-width: 100%;}
 
 .botonEnviar{
     background-color: grey;
     color: white;
     font-size: 17px;
-    padding: 10px;
-
-}
+    padding: 10px;}
 
 .botonLimpiar{
     background-color: black;
     color: white;
     font-size: 17px;
-    padding: 10px;
-}
+    padding: 10px;}
 
 .botonEnviar:hover{
     border:1px solid #fffa;
     cursor: pointer;
     background-color: lightgrey;
-    color: black;
-}
+    color: black;}
 
 .botonLimpiar:hover{
     border:1px solid #fffa;
     cursor: pointer;
     background-color: lightgrey;
-    color: black;
-
-}
+    color: black;}
 
 .colorContacto{
-    background-color:rgb(214, 209, 211);
-}
+    background-color:rgb(214, 209, 211);}
 
 #notaContacto{
     font-size: 35px;
     text-align: center;
     font-weight: bold;
-    text-shadow: 1px 2px #999;
-
-
-}
+    text-shadow: 1px 2px #999;}
 
 
 
@@ -446,6 +394,34 @@ h1{
 
 @media (max-width:768px){
 
+
+
+    .footer__pagina{
+        display:grid;
+        grid-template-areas: "suscribite"
+                            "contacto"  
+                            "redes";
+          grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+    }
+    
+    .footer__suscribite{
+        grid-area: suscribite;
+    }
+
+    .footer__contacto{
+        grid-area:contacto;
+    }
+    .footer__redesSociales{
+        grid-area:redes;
+    }
+
+
+
+
+
+
     .texto__tiendasDir{
         font-size:22px;
     }
@@ -472,10 +448,12 @@ h1{
         }
     
         .footer__contacto h4{
+            display:none;
+            /*
             font-size:22px;
             font-weight: bold;
             font-family: 'Ubuntu', sans-serif;
-
+*/
         }
 
 
@@ -540,9 +518,9 @@ h1{
     .pieFotoP{
         font-size: 1.2rem; }
     .sillon__ahora{ 
-        font-size: 17px; }
+        font-size: 20px; }
     .sillon__desde{ 
-        font-size:13px; }
+        font-size:17px; }
     #notaContacto{
         font-size: 1.95rem;
     font-weight: bold; }
