@@ -99,14 +99,16 @@ nav ul li {
     font-weight: bold;
     font-size: 1.8rem;
     margin-top: 40px;
-    margin-bottom: 40px;}
+    margin-bottom: 40px;
+    text-align:center;}
 .sillon__ahora{ 
     text-decoration: underline;
-    font-size: 1.5rem;}
+    font-size: 1.3rem;
+    color:black;}
 /* PRODUCTOS - PRECIO */
 .sillon__desde{ 
     text-decoration: line-through;
-    font-size:1.4rem;
+    font-size:1.1rem;
     color: red;}
 /*ERROR*/
 .error__imagen{
@@ -339,7 +341,8 @@ h1{
 
 @media (max-width:420px){
     .introduccion__Foto{
-        font-size: 1.1rem;}    
+        font-size: 1.2rem;
+        align-items:center;}    
     .introduccion__fotoPie{
         font-size: 1.3rem;}    
     .texto__promociones{
@@ -376,9 +379,9 @@ h1{
         justify-content: center;
         text-align: center;}  
     .sillon__ahora{ 
-        font-size: 17px; } 
+        font-size: 22px; } 
     .sillon__desde{ 
-         font-size:15px; }    
+         font-size:19px; }    
     .centro input[type="submit"]{
         padding: 6px 15px;
         font-size: 15px;
