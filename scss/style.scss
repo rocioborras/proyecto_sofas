@@ -43,7 +43,8 @@ nav ul li {
 /* FOOTER - SUSCRIBITE */
 .footer__suscribite{
     /*display: grid;*/
-    background-image:linear-gradient(to right, rgb(221, 219, 205),white); 
+    /*background-image:linear-gradient(to right, rgb(221, 219, 205),white); */
+    background: linear-gradient(to bottom, white, rgb(221, 219, 205));
     font-size: 17px;
     grid-column:1/3;
     color: black;}
