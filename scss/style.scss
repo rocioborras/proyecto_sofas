@@ -32,8 +32,7 @@ nav ul li {
 .introduccion__fotoPie{
     text-align: center;
     font-size: 1.6rem;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;}
+    font-weight: bold;}
 /* FOOTER */
 .footer__pagina{
     display: grid;
@@ -57,7 +56,7 @@ nav ul li {
 /* FOOTER - REDES SOCIALES*/
 .footer__redesSociales{
     background-color: white;
-     grid-column:1/4;
+    grid-column:1/4;
     font-size:1.5rem;}
 .footer__redesSociales p{
     font-size:15px;}
@@ -262,7 +261,7 @@ h1{
 }
 */
 
-@media (max-width:768px){
+@media (max-width:768px){    
     .footer__pagina{
         display:grid;
         grid-template-areas: "suscribite"
@@ -387,6 +386,8 @@ h1{
         padding: 10px;
         justify-content: center;
         text-align: center;}  
+    .titulo__productos{
+        font-size:22px;}
     .sillon__ahora{ 
         font-size: 22px; } 
     .sillon__desde{ 
@@ -408,7 +409,7 @@ h1{
         margin: 0 auto; }
     .form{
         width: 250px; }
-  #notaContacto{
+    #notaContacto{
         font-weight: bold;
         font-size: 1.5rem;
         text-align: center; }  
