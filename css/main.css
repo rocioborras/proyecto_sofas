@@ -39,8 +39,7 @@ nav ul li {
 .introduccion__fotoPie {
   text-align: center;
   font-size: 1.6rem;
-  font-weight: bold;
-  font-family: 'Ubuntu', sans-serif; }
+  font-weight: bold; }
 
 /* FOOTER */
 .footer__pagina {
@@ -428,6 +427,8 @@ h1{
     padding: 10px;
     justify-content: center;
     text-align: center; }
+  .titulo__productos {
+    font-size: 22px; }
   .sillon__ahora {
     font-size: 22px; }
   .sillon__desde {
