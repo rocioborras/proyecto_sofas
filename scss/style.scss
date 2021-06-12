@@ -24,10 +24,16 @@ nav ul li {
 /* INDEX - INTRODUCCION FOTO */
 .introduccion__Foto{
     /*font-weight: bold;*/
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 20px;
-    letter-spacing: 1px;}
+    letter-spacing: 1px;
+    line-height: 200%}
+.introduccion__FotoDos{
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 200%}
 /* INDEX - PIE FOTO */
 .introduccion__fotoPie{
     text-align: center;
@@ -276,6 +282,8 @@ h1{
         background: linear-gradient(to top, white, rgb(221, 219, 205));}
     .footer__redesSociales{
         grid-area:redes;}
+    .footer__redesSociales p{
+        font-size:22px;}
     .texto__tiendasDir{
         font-size:22px;}
     .texto__tiendas{
@@ -294,6 +302,8 @@ h1{
             font-size:19px;}
     .footer__contacto h4{
             display:none;}
+    .footer__contacto p{
+        font-size: 21px;}
     .footer__suscribite input[type="submit"]{
             padding: 6px 15px;
             font-size: 15px;
@@ -330,7 +340,7 @@ h1{
     .sillon__ahora{ 
         font-size: 20px; }
     .sillon__desde{ 
-        font-size:17px; }
+        font-size:18px; }
     #notaContacto{
         font-size: 1.95rem;
         font-weight: bold; }
@@ -339,10 +349,14 @@ h1{
         height: 250px;
         margin: 0 auto; } 
     .h1__texto{
-        font-size:48px;
+        font-size:55px;
         font-weight: bold;}
     .p__texto{
-        font-size:32px;}
+        font-size:33px;}
+    .texto__promociones{
+        font-size:24px;}
+    .titulo__productos{
+        font-size:21px;}
 }
 
 @media (max-width:420px){
@@ -350,7 +364,7 @@ h1{
         font-size: 1rem;
         align-items:center;}    
     .introduccion__fotoPie{
-        font-size: 1.3rem;}    
+        font-size: 1.4rem;}    
     .texto__promociones{
         font-size: 1.5rem;}
     .texto__promociones__pie{
@@ -360,7 +374,7 @@ h1{
     .footer__suscribite h2{
         font-size: 20px;}
     .footer__suscribite h3{
-        font-size:17px;}
+        font-size:19px;}
     .footer__contacto h4{
         display:none;}
     .texto__tiendasDir{
@@ -377,7 +391,7 @@ h1{
         font-size:20px;}
     .footer__suscribite input[type="submit"]{
         padding: 6px 15px;
-        font-size: 15px;
+        font-size: 17px;
         margin-bottom: 6px;
         width: 70%; }    
     .footer__suscribite input[type="email"]{
@@ -387,7 +401,7 @@ h1{
         justify-content: center;
         text-align: center;}  
     .titulo__productos{
-        font-size:22px;}
+        font-size:18px;}
     .sillon__ahora{ 
         font-size: 22px; } 
     .sillon__desde{ 
@@ -415,7 +429,8 @@ h1{
         text-align: center; }  
     .titulo__productos{
         line-height:25px;
-        margin-bottom:5px;}
+        margin-bottom:5px;
+        font-size:24px;}
     .footer__contacto h4{
         font-size:10px;}
     .h1__texto{
@@ -423,6 +438,8 @@ h1{
         font-weight: bold;}
     .p__texto{
         font-size:30px;}
+    .introduccion__FotoDos{
+        display:none;}
  }
 
 @media (max-width:290px){
