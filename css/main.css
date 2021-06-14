@@ -133,10 +133,11 @@ nav ul li {
 /* PRODUCTOS - PRECIO */
 .titulo__productos {
   font-weight: bold;
-  font-size: 1.8rem;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center; }
+  font-size: 2rem;
+  /* margin-top: 40px;
+    margin-bottom: 40px;*/
+  text-align: center;
+  padding-top: 7px; }
 
 .sillon__ahora {
   text-decoration: underline;
@@ -399,7 +400,7 @@ h1{
   .texto__promociones {
     font-size: 24px; }
   .titulo__productos {
-    font-size: 21px; } }
+    font-size: 25px; } }
 
 @media (max-width: 420px) {
   .introduccion__Foto {
@@ -442,8 +443,6 @@ h1{
     padding: 10px;
     justify-content: center;
     text-align: center; }
-  .titulo__productos {
-    font-size: 18px; }
   .sillon__ahora {
     font-size: 22px; }
   .sillon__desde {
@@ -470,7 +469,7 @@ h1{
     font-size: 1.5rem;
     text-align: center; }
   .titulo__productos {
-    line-height: 25px;
+    line-height: 35px;
     margin-bottom: 5px;
     font-size: 24px; }
   .footer__contacto h4 {
