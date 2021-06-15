@@ -312,7 +312,6 @@ h1{
             width: 40%; 
             text-align: center;} 
     .introduccion__Foto{
-        font-weight: bold;
         font-size: 1.3rem;
         text-align: center;
         margin-top: 20px;
@@ -351,21 +350,26 @@ h1{
         margin: 0 auto; } 
     .h1__texto{
         font-size:55px;
-        font-weight: bold;}
+        font-weight: bold;
+        margin-bottom: 30px;}
     .p__texto{
         font-size:33px;}
     .texto__promociones{
         font-size:24px;}
     .titulo__productos{
         font-size:25px;}
+    .introduccion__FotoDos{
+        font-size: 1.3rem;
+        text-align: center;
+        line-height:30px;}
 }
 
-@media (max-width:420px){
+@media (max-width:480px){
     .introduccion__Foto{
-        font-size: 1rem;
-        align-items:center;}    
+        font-size: 18px;
+        text-align:center;}    
     .introduccion__fotoPie{
-        font-size: 1.4rem;}    
+        font-size: 21px;}    
     .texto__promociones{
         font-size: 1.5rem;}
     .texto__promociones__pie{
@@ -389,7 +393,7 @@ h1{
         text-align: center;
         font-weight: bold;}
     .footer__redesSociales p{
-        font-size:20px;}
+        font-size:18px;}
     .footer__suscribite input[type="submit"]{
         padding: 6px 15px;
         font-size: 17px;
@@ -433,30 +437,31 @@ h1{
     .footer__contacto h4{
         font-size:10px;}
     .h1__texto{
-        font-size:45px;
-        font-weight: bold;}
+        font-size:55px;
+        font-weight: bold;
+        padding-bottom:20px;}
     .p__texto{
         font-size:30px;}
     .introduccion__FotoDos{
         display:none;}
  }
 
-@media (max-width:290px){
+@media (max-width:320px){
     .titulo__productos{
-        font-size: 15px;
+        font-size: 18px;
         text-align:center;}
     .sillon__ahora{
-        font-size:13px;}
+        font-size:18px;}
     .sillon__desde{
-        font-size: 13px;}
+        font-size: 15px;}
     .texto__promociones{
-        font-size:13px;}
+        font-size:20px;}
     .texto__promociones__pie{
-        font-size: 12px;}
+        font-size: 18px;}
     .texto__tiendas{
-        font-size: 13px;}
+        font-size: 19px;}
     .texto__tiendasDir{
-        font-size:12px;}
+        font-size:15px;}
     #notaContacto{
         font-size:14px;
         font-weight: bold;
@@ -481,8 +486,10 @@ h1{
         font-size: 11px;
         padding: 4px;}
     .h1__texto{
-        font-size:20px;
-        font-weight: bold;}
+        font-size:40px;
+        font-weight: bold;
+        padding-bottom: 20px;}
     .p__texto{
-        font-size:16px;}
+        font-size:20px;}
 }
+
