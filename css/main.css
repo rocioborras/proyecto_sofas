@@ -284,35 +284,7 @@ textarea {
   font-weight: bold;
   text-shadow: 1px 2px #999; }
 
-/* INDEX - CARROUSEL 
-#img{
-    width: 1100px;
-    height: 500px;}
-.img{
-    width: 100%;
-    height: 100%;}
-.title{
-    text-decoration: underline;
-    font-size: 20px;}
-h1{
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 40px;}
- CONTACTO - FORMULARIO DE CONTACTO 
-.navbar-light {
-    background-image:linear-gradient(to left, rgb(221, 219, 205),white);}
-
-    @media (max-width:992px){
-    .container-fluid{
-        background-color: white;}
-    .titulo__productos{
-        font-size: 1.2rem;}
-    .introFoto{
-        font-size: 1rem;}
-    .pieFoto{
-        font-size: 1.2rem;}
-}
-*/
+/*MEDIDA 768PX*/
 @media (max-width: 768px) {
   .footer__pagina {
     display: grid;
@@ -406,6 +378,13 @@ h1{
     text-align: center;
     line-height: 30px; } }
 
+/*MEDIDA 991PX A 1140PX SOLO PARA NAV*/
+@media (min-width: 991px) and (max-width: 1140px) {
+  nav ul li {
+    margin-left: none;
+    margin-right: -10px; } }
+
+/*MEDIDA 480PX*/
 @media (max-width: 480px) {
   .introduccion__Foto {
     font-size: 18px;
@@ -487,6 +466,7 @@ h1{
   .introduccion__FotoDos {
     display: none; } }
 
+/*MEDIDA 320PX*/
 @media (max-width: 320px) {
   .titulo__productos {
     font-size: 18px;
