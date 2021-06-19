@@ -23,7 +23,6 @@ nav ul li {
     border: dotted 1px;}
 /* INDEX - INTRODUCCION FOTO */
 .introduccion__Foto{
-    /*font-weight: bold;*/
     font-size: 1.2rem;
     text-align: center;
     margin-top: 20px;
@@ -39,19 +38,19 @@ nav ul li {
     text-align: center;
     font-size: 1.6rem;
     font-weight: bold;}
+h5{
+    font-size:35px;
+    font-family: 'Ubuntu', sans-serif;}
 /* FOOTER */
 .footer__pagina{
+    padding-top:20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;}
-    /*row-gap:1em;
-    column-gap: 0.5em;}*/
 .footer__pagina div{
     padding: 0.65em;
     text-align: center;}
 /* FOOTER - SUSCRIBITE */
-.footer__suscribite{
-    /*display: grid;*/
-    /*background-image:linear-gradient(to right, rgb(221, 219, 205),white); */
+.footer__suscribite{    
     background: linear-gradient(to bottom, white, rgb(221, 219, 205));
     font-size: 17px;
     grid-column:1/3;
@@ -109,8 +108,6 @@ nav ul li {
 .titulo__productos{
     font-weight: bold;
     font-size: 2rem;
-    /* margin-top: 40px;
-    margin-bottom: 40px;*/
     text-align:center;  
     padding-top:7px;}
 .sillon__ahora{ 
@@ -181,7 +178,6 @@ nav ul li {
 .imagen__contacto{
     background-color: white;
     background-image: url("../imagenes/contactofoto.jpg");
-    /*height: 100vh;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
